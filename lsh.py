@@ -3,14 +3,14 @@ import time
 l=[]
 #data collection
 
-for i in range(10**4):
+for i in range(10**7):
   l.append(np.random.normal(0,100,100))
 
 #data processing for lsh
 hyper_planes=[]
 for j in range(40):
    k=[]
-   for i in range(10):
+   for i in range(20):
       k.append(np.random.normal(0,100,100))
    hyper_planes.append(k)
 
