@@ -55,7 +55,7 @@ for h in hyper_planes:
     t=t+1
 
 ans=[]
-for i in range(10):
+for i in range(40):
     if str(point) not in lis[i].keys():
         continue
     lis1=lis[i][str(point)]
